@@ -20,27 +20,27 @@ console.table(tabla, ['Traditional', 'pointRange', 'Letter', 'SBGRating', 'Profi
 if (Note >= 90 && Note <= 100) {
     SBGRating = 4;
     level = "A"
-    console.log(`Estimado ${Name} su calificacion de ${Note} lo ha clasificado en el nivel ${level}, estado: ${Protifiency[0]}, Observación: ${honesty[0]}`)
+    console.log(`Estimado ${Name} su calificacion de ${Note} \n lo ha clasificado en el nivel ${level}, \n estado: ${Protifiency[0]}, \n Observación: ${honesty[0]}`)
   } else if (Note >= 80 && Note <= 89) {
     SBGRating = 3;
     level = "B"
-    console.log(`Estimado ${Name} su calificacion de ${Note} lo ha clasificado en el nivel ${level}, estado: ${Protifiency[1]}, Observación: ${honesty[1]}`)
+    console.log(`Estimado ${Name} su calificacion de ${Note} \n lo ha clasificado en el nivel ${level}, \n estado: ${Protifiency[1]}, \n Observación: ${honesty[1]}`)
   } else if (Note >= 70 && Note <= 79) {
     SBGRating = 2;
     level = "C"
-    console.log(`Estimado ${Name} su calificacion de ${Note} lo ha clasificado en el nivel ${level}, estado: ${Protifiency[2]}, Observación: ${honesty[2]}`)
+    console.log(`Estimado ${Name} su calificacion de ${Note} \n lo ha clasificado en el nivel ${level}, \n estado: ${Protifiency[2]}, \n Observación: ${honesty[2]}`)
   }else if (Note > 60 && Note <= 69) {
     SBGRating = 1;
     level = "D"
-    console.log(`Estimado ${Name} su calificacion de ${Note} lo ha clasificado en el nivel ${level}, estado: ${Protifiency[3]}, Observación: ${honesty[3]}`)
+    console.log(`Estimado ${Name} su calificacion de ${Note} \n lo ha clasificado en el nivel ${level}, \n estado: ${Protifiency[3]}, \n Observación: ${honesty[3]}`)
   }else if (Note >= 1 && Note < 60) {
     SBGRating = 0;
     level = "E"
-    console.log(`Estimado ${Name} su calificacion de ${Note} lo ha clasificado en el nivel ${level}, estado: ${Protifiency[4]}, Observación: ${honesty[4]}`)
+    console.log(`Estimado ${Name} su calificacion de ${Note} \n lo ha clasificado en el nivel ${level}, \n estado: ${Protifiency[4]}, \n Observación: ${honesty[4]}`)
   }else if (Note == 0) {
     SBGRating = 0;
     level = "F"
-    console.log(`Estimado ${Name} su calificacion de ${Note} lo ha clasificado en el nivel ${level}, estado: ${Protifiency[5]}, Observación: ${honesty[5]}`)
+    console.log(`Estimado ${Name} su calificacion de ${Note} \n lo ha clasificado en el nivel ${level}, \n estado: ${Protifiency[5]}, \n Observación: ${honesty[5]}`)
   }
 
   console.log("%c Esos Fueron sus resultados, Hasta pronto",
